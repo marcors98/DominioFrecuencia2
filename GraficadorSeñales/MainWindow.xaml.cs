@@ -240,7 +240,13 @@ namespace GraficadorSeñales
                         break;
                     }
                 }
+                double frecuenciaFundamental = (double)indiceMaximo * señal.FrecuenciaMuestreo / (double)transformada.Muestras.Count;
+
+                lblFrecuenciaFundamental.Text = frecuenciaFundamental.ToString() + " Hz";
+
             }
+
+           
 
             plnEjeXResultado.Points.Clear();
             //Punto del principio
