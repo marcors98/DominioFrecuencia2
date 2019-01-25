@@ -38,8 +38,8 @@
         <Button x:Name="btnTransformadaFourier" Content="Transformada de Fourier" HorizontalAlignment="Left" Margin="157,388,0,0" VerticalAlignment="Top" Width="208" Height="39" Click="btnTransformadaFourier_Click"/>
         <TextBlock x:Name="lblFrecuenciaFundamental" HorizontalAlignment="Left" Margin="22,611,0,0" TextWrapping="Wrap" Text="0 Hz" VerticalAlignment="Top" RenderTransformOrigin="1.666,-1.128" Width="343" Height="69" FontSize="36"/>
         <TextBlock HorizontalAlignment="Left" Margin="22,94,0,0" TextWrapping="Wrap" Text="Rutade archivo:" VerticalAlignment="Top" Height="34" Width="108"/>
-        <TextBox HorizontalAlignment="Left" Height="31" Margin="22,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="343"/>
-        <Button Content="Examinar" HorizontalAlignment="Left" Margin="22,190,0,0" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="txtRutaArchivo" HorizontalAlignment="Left" Height="31" Margin="21,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="343" RenderTransformOrigin="0.499,-0.419"/>
+        <Button Content="Examinar" HorizontalAlignment="Left" Margin="22,156,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click"/>
 
     </Grid>
 </Window>
